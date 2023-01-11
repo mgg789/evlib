@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+.miniheader{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.menu a{
+    color: black;
+}
+.iconm{
+    float: left;
+}
+.point{
+    line-height: 35px;
+    padding-left:20px ;
+    padding-right: 20px;
+    transition: 0.4s;
+}
+.menu{
+    text-align: right;
+}
+.point:hover{
+color: rgb(151, 150, 150);
+transition: 0.4s;
+}
+
+
+
+
+.mico{
+    width: 150px;
+    height: 33px;
+}
+
+
+
+.bpi{
+    width: 50%;
+    height: 180px;
+    margin-left: 23%;
+    padding-left: 5px;
+    border: 4px black ;
+}
+.libmain{
+    text-align: center;
+}
+.bio{
+    
+    float: left ;
+    width: 65%;
+    margin-right: 40px;
+    
+}
+.download{
+float: left;
+width: 50px;
+height: 40px;
+
+}
+.dw{
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.ac{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 25px;
+} 
+
+
+.search{
+    width: 30%;
+    margin-left: 35%;
+
+}
+
+.other p{
+    margin-left: 10px;
+}
+
+.other input{
+    margin-left: 4%;
+}
+input{float: left;}
+.but{
+    margin-left: 5px;
+}
+
+
+input[type=text] {
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+
+
+@media screen and (min-width:200px) and (max-width:1232px) {
+    .search{
+        width: 40%;
+        margin-left: 35%;
+    
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:800px) {
+    p{
+        font-size: 1.5em;
+    }
+}
